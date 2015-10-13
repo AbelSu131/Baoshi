@@ -13,6 +13,12 @@
 		B53A804C1BCC91BC00B5C17C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B53A804A1BCC91BC00B5C17C /* Main.storyboard */; };
 		B53A804E1BCC91BC00B5C17C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B53A804D1BCC91BC00B5C17C /* Assets.xcassets */; };
 		B53A80511BCC91BC00B5C17C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B53A804F1BCC91BC00B5C17C /* LaunchScreen.storyboard */; };
+		B53A805D1BCC9C0B00B5C17C /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B53A805C1BCC9C0B00B5C17C /* HomeViewController.m */; settings = {ASSET_TAGS = (); }; };
+		B53A80601BCC9CAB00B5C17C /* ListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B53A805F1BCC9CAB00B5C17C /* ListViewController.m */; settings = {ASSET_TAGS = (); }; };
+		B53A80631BCC9CB800B5C17C /* MineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B53A80621BCC9CB800B5C17C /* MineViewController.m */; settings = {ASSET_TAGS = (); }; };
+		B53A80681BCC9DC100B5C17C /* tab_1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B53A80651BCC9DC100B5C17C /* tab_1@2x.png */; settings = {ASSET_TAGS = (); }; };
+		B53A80691BCC9DC100B5C17C /* tab3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B53A80661BCC9DC100B5C17C /* tab3@2x.png */; settings = {ASSET_TAGS = (); }; };
+		B53A806A1BCC9DC100B5C17C /* tab_2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B53A80671BCC9DC100B5C17C /* tab_2@2x.png */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +32,15 @@
 		B53A804D1BCC91BC00B5C17C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B53A80501BCC91BC00B5C17C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B53A80521BCC91BC00B5C17C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B53A805B1BCC9C0B00B5C17C /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		B53A805C1BCC9C0B00B5C17C /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		B53A805E1BCC9CAB00B5C17C /* ListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListViewController.h; sourceTree = "<group>"; };
+		B53A805F1BCC9CAB00B5C17C /* ListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListViewController.m; sourceTree = "<group>"; };
+		B53A80611BCC9CB800B5C17C /* MineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineViewController.h; sourceTree = "<group>"; };
+		B53A80621BCC9CB800B5C17C /* MineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineViewController.m; sourceTree = "<group>"; };
+		B53A80651BCC9DC100B5C17C /* tab_1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab_1@2x.png"; sourceTree = "<group>"; };
+		B53A80661BCC9DC100B5C17C /* tab3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab3@2x.png"; sourceTree = "<group>"; };
+		B53A80671BCC9DC100B5C17C /* tab_2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab_2@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,14 +73,10 @@
 		B53A80401BCC91BC00B5C17C /* Baoshi */ = {
 			isa = PBXGroup;
 			children = (
-				B53A80441BCC91BC00B5C17C /* AppDelegate.h */,
-				B53A80451BCC91BC00B5C17C /* AppDelegate.m */,
-				B53A80471BCC91BC00B5C17C /* ViewController.h */,
-				B53A80481BCC91BC00B5C17C /* ViewController.m */,
-				B53A804A1BCC91BC00B5C17C /* Main.storyboard */,
-				B53A804D1BCC91BC00B5C17C /* Assets.xcassets */,
-				B53A804F1BCC91BC00B5C17C /* LaunchScreen.storyboard */,
-				B53A80521BCC91BC00B5C17C /* Info.plist */,
+				B53A805A1BCC91EF00B5C17C /* Controller */,
+				B53A80591BCC91E600B5C17C /* Views */,
+				B53A80581BCC91D100B5C17C /* Model */,
+				B53A80641BCC9D8C00B5C17C /* Resource */,
 				B53A80411BCC91BC00B5C17C /* Supporting Files */,
 			);
 			path = Baoshi;
@@ -74,9 +85,54 @@
 		B53A80411BCC91BC00B5C17C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				B53A80441BCC91BC00B5C17C /* AppDelegate.h */,
+				B53A80451BCC91BC00B5C17C /* AppDelegate.m */,
+				B53A80471BCC91BC00B5C17C /* ViewController.h */,
+				B53A80481BCC91BC00B5C17C /* ViewController.m */,
+				B53A804A1BCC91BC00B5C17C /* Main.storyboard */,
+				B53A804D1BCC91BC00B5C17C /* Assets.xcassets */,
+				B53A804F1BCC91BC00B5C17C /* LaunchScreen.storyboard */,
+				B53A80521BCC91BC00B5C17C /* Info.plist */,
 				B53A80421BCC91BC00B5C17C /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B53A80581BCC91D100B5C17C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		B53A80591BCC91E600B5C17C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		B53A805A1BCC91EF00B5C17C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B53A805B1BCC9C0B00B5C17C /* HomeViewController.h */,
+				B53A805C1BCC9C0B00B5C17C /* HomeViewController.m */,
+				B53A805E1BCC9CAB00B5C17C /* ListViewController.h */,
+				B53A805F1BCC9CAB00B5C17C /* ListViewController.m */,
+				B53A80611BCC9CB800B5C17C /* MineViewController.h */,
+				B53A80621BCC9CB800B5C17C /* MineViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		B53A80641BCC9D8C00B5C17C /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				B53A80651BCC9DC100B5C17C /* tab_1@2x.png */,
+				B53A80661BCC9DC100B5C17C /* tab3@2x.png */,
+				B53A80671BCC9DC100B5C17C /* tab_2@2x.png */,
+			);
+			name = Resource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,9 +193,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B53A80681BCC9DC100B5C17C /* tab_1@2x.png in Resources */,
+				B53A80691BCC9DC100B5C17C /* tab3@2x.png in Resources */,
 				B53A80511BCC91BC00B5C17C /* LaunchScreen.storyboard in Resources */,
 				B53A804E1BCC91BC00B5C17C /* Assets.xcassets in Resources */,
 				B53A804C1BCC91BC00B5C17C /* Main.storyboard in Resources */,
+				B53A806A1BCC9DC100B5C17C /* tab_2@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,9 +209,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B53A80601BCC9CAB00B5C17C /* ListViewController.m in Sources */,
 				B53A80491BCC91BC00B5C17C /* ViewController.m in Sources */,
 				B53A80461BCC91BC00B5C17C /* AppDelegate.m in Sources */,
+				B53A80631BCC9CB800B5C17C /* MineViewController.m in Sources */,
 				B53A80431BCC91BC00B5C17C /* main.m in Sources */,
+				B53A805D1BCC9C0B00B5C17C /* HomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
